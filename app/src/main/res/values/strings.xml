@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Android Benchmark App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello World, RandMemActivity!</string>
+    <string name="start">Run-1</string>
+    <string name="memtest">MemTest </string>
+    <string name="start2">Run-2</string>
+    <string name="ogl">OpenGL Java Benchmark </string>
+    <string name="linpn">NativeLinpack</string>
+    <string name="dhryn">NativeDhry2 </string>
+    <string name="IntegerCalc">Integer Hesaplama</string>
+    <string name="PrimeResult">Prime Number Performansı...</string>
+    <string name="MatrixMultip">Matrix Multiplication Performansı...</string>
+    <string name="MatrixInverse">Matrix Inverse Performansı...</string>
+    <string name="SolveEquations">Solving Equation Performansı...</string>
+    <string name="RRF">Solving RRF Performansı...</string>
+    <string name="ComplexEquations">Solving Complex Equations Performansı...</string>
+    <string name="DegToRad">Degree To Radian Performansı...</string>
+    <string name="RadToDeg">Radian To Degree Performansı...</string>
+    <string name="NThRoot">Nth Root Performansı...</string>
+    <string name="QuickSort">QuickSort Performansı...</string>
+    <string name="Dijkstra">Dijkstra Performansı...</string>
+    <string name="FFT">FFT Performansı...</string>
+    <string name="HTMLParser">HTMLParser Performansı...</string>
+    <string name="AES">AES Performansı...</string>
+    <string name="QRCode">QR Code Scan Performansı...</string>
+    <string name="Canny">Canny Performansı...</string>
+    <string name="GaussianBlur">GaussianBlur Performansı...</string>
+    <string name="CPUBenchmark_Btn">CPU Benchmark</string>
+    <string name="Run_JNI">ÇALIŞTIR</string>
+    <string name="RAMBenchmark">RAM Benchmark</string>
+    <string name="Heap_Stack">Heap-Stack Memory Allocation</string>
+    <string name="CPU_Tab">CPU</string>
+    <string name="GPU_Tab">GPU</string>
+    <string name="IO_Tab">IO</string>
+    <string name="RAM_Tab">RAM</string>
+    <string name="SQLite_Benchmark">SQLıte Benchmark</string>
+    <string name="SQLite_txtView">SQLite Benchmark Performansı</string>
+    <string name="RAM_Amount">RAM Miktarı</string>
+    <string name="Linpack_description">"-------Açıklama-------\n"
+                          "Linpack Benchmark, Jack Dongarra tarafından "
+                          "bir doğrusal cebir rutini paketi ile üretildi. 1980'li yılların "
+                          "ortalarından itibaren süper bilgisayar performansına eğimli "
+                          "bilimsel bilgisayarlar için temel kriterlerden biri haline geldi. "
+                          "Burada kullanılan orijinal çift duyarlıklı C versiyonu "
+                          "100x100 matris üzerinde çalışmaktadır. "
+                          "Performans,  dy [i] = dy [i] + da * dx [i]'a bağlı "
+                          "olan daxpy işlevindeki bir iç döngü tarafından yönetilir. "
+                          "Millions of Floating Point Operation Per Second "
+                          "(MFLOPS) cinsinden ölçülür.\n"
+                          "Bu bölüm Java'da ana kod olarak Android Native Development Kit kullanır. "
+                          </string>
+
+    <string name="Mem_Speed_description">"-------Açıklama-------\n"
+                        "Bu benchmark, 2 x 8 KB - 2 x 32 MB büyüklüğündeki "
+                        "önbellek ve RAM verilerinde hesaplamalar yaparak saniyede Mega Bayt "
+                        "cinsinden veri okuma hızlarını ölçer. "
+                        "Hesaplamalarda x [m] = x [m] + s * y [m] ve x [m] = x [m] + y [m] çift ve tek duyarlı "
+                        "Floating Point kullanılır ve x [m] = x [m] + s + y [m] "
+                        "ve x [m] = x [m] + y [m] tamsayıdır. "
+                        "Millions of Floating Point Operation Per Second (MFLOPS) hızı, "
+                        "çift duyarlı için MB / saniyeyi 8 ve 16'ya bölerek "
+                        "hesaplanabilir tek için ve 4 ve 8'e bölünür. "
+                        "Tamsayı testlerinin listelerinde Millions of Instruction Per Second'ın "
+                        "MB / saniyeyi 0,78'e 2 eklenerek ve 0,66 "
+                        "ile çarparak bulunabileceğini göstermektedir. "
+                        "Önbellek boyutları, bellek kullanımı değiştikçe değişen performansla gösterilir."</string>
+
+    <string name="Ran_Mem_description">"-------Açıklama-------\n"
+                      "Bu benchmark, MBytes Per Second'de önbellek "
+                      "ve bellekten veri aktarım hızları elde etmek için "
+                      "artan veri boyutlarında dört test gerçekleştirir. "
+                      "Aynı program yapısını kullanarak, 32 bit tamsayıları "
+                      "kullanarak okuma ve yazma testleriyle seri ve "
+                      "rasgele adres seçimleri kullanılır. "
+                      "Asıl amaç, rasgele erişim kullanarak performansın ne "
+                      "kadar yavaş olabileceğini göstermektir. "
+                      "Burada hız, verilerin çoğunun kullanılmadığı burst'lerde "
+                      "okuma ve yazma ve önceki önbelleklerin boyutundan önemli ölçüde etkilenebilir."</string>
+
+    <string name="JavaDraw_description">"-------Açıklama-------\n"
+                          "Bu benchmark, Frames Per Second (FPS) grafik performansını ölçer. "
+                          "Beş test, sürekli değişen renk tonlarının arka planını çizer.  "
+                          "Test 1, her kare için hareket eden bitmapler iki kez bir PNG dosyası yükler. "
+                          "Test 2, tekrar hareket eden 2 SweepGradient daire oluşturur. "
+                          "Test 3, ekranın ortasına 200 rastgele küçük daire çizer. "
+                          "Test 4, her bir tarafın ortasından diğer tarafa 80 renk çizer, "
+                          "yine değişen renkler ile. "
+                          "Test 5, Test 3 ile aynı küçük rasgele daireleri "
+                          "çizer ancak 4000 adet ile ekranı doldurur. "
+                          "Her test yaklaşık 10 saniye sürer. "</string>
+
+    <string name="JavaOpenGL_description">"-------Açıklama-------\n"
+                          "Bu benchmark, Frames Per Second (FPS) grafik performansını "
+                          "ölçmek için OpenGL ile tüm Java kodlarını kullanır. "
+                          "Dört test, önce wireframes olarak 50 küpten "
+                          "oluşan bir arka plan çizer, ardından gölgelendirilir(colour shaded). "
+                          "Üçüncü test, döner plakaları da içeren, oluklu kenarları ve tavanı "
+                          "olan bir tünelin içine ve dışına küpleri görüntüler. "
+                          "Son test küplere ve plakalara dokular ekler. "
+                          "50 küp, rasgele konumlar, renkler ve dönme ayarlarıyla, "
+                          "15, 30 ve 60 kez yeniden çizilir. "
+                          "Küp başına 6 x 2 üçgen ile üç test kümesi için "
+                          "çerçeve başına minimum üçgenler 9000, 18000 ve 36000'dir. \n"</string>
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RAMFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/RamInfo_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/RAM_Amount"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/TextColor"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/HeapStack_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Heap_Stack"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/RAMBenchmark_btn"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RAMBenchmark"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/displayDetails"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/memtest"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:visibility="visible"></TextView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/RandMem_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/Ran_Mem_description"
+                android:textColor="@color/TextColor"
+                android:textSize="12sp"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@android:color/black"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/displayDetails2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/memtest"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:visibility="visible"></TextView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/MemSpeed_txtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/Mem_Speed_description"
+                android:textColor="@color/TextColor"
+                android:textSize="12sp"
+                android:typeface="monospace"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/startButton"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Run_JNI"
+                android:visibility="visible"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
